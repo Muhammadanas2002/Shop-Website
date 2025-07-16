@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navbarapp() {
   return (
-    <div>
+    <div className="sticky top-0 z-50 bg-white shadow">
       <Navbar expand="lg" style={{ backgroundColor: '#ffe6f0' }}>
         <Container fluid>
           <Navbar.Brand href="/">
